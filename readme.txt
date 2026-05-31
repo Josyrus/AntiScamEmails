@@ -32,6 +32,7 @@ sudo pacman -Sy --needed \
 ```
 
 ---
+
 ### Configurar Tor
 ```bash
 sudo systemctl start tor
@@ -41,7 +42,15 @@ Edita `/etc/proxychains4.conf` y asegúrate de tener:
 dynamic_chain
 socks5 127.0.0.1 9050
 
+
 ---
+
+## Diccionarios requeridos
+
+Descarga y coloca en la raíz del proyecto:
+
+- [rockyou.txt](https://github.com/zacheller/rockyou)
+- [xato-net-10-million-usernames.txt](https://github.com/danielmiessler/SecLists/blob/master/Usernames/xato-net-10-million-usernames.txt)
 
 ### Ejecutar
 ```bash
